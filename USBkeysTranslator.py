@@ -484,8 +484,7 @@ with open(filename,"rb") as hexfile:
 			continue
 	
 		keys_captured.append(key)
-		if key=="key_O":
-			print "got o"
+
 		# if the pressed key outputs a character, it will be retained
 		character = key2Char(key,modifier)
 		if character != None:
